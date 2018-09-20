@@ -1,8 +1,37 @@
-hexo g #ÍêÕûÃüÁîÎªhexo generate,ÓÃÓÚÉú³É¾²Ì¬ÎÄ¼ş
-hexo s #ÍêÕûÃüÁîÎªhexo server,ÓÃÓÚÆô¶¯·şÎñÆ÷£¬Ö÷ÒªÓÃÀ´±¾µØÔ¤ÀÀ
-hexo d #ÍêÕûÃüÁîÎªhexo deploy,ÓÃÓÚ½«±¾µØÎÄ¼ş·¢²¼µ½githubÉÏ
-hexo n #ÍêÕûÃüÁîÎªhexo new,ÓÃÓÚĞÂ½¨Ò»ÆªÎÄÕÂ
-hexo clean ÇåÀí
+å®‰è£…å‰æ
+node.jså’Œgitå®¢æˆ·ç«¯
+æ–°è£…gitéœ€è¦é…ç½®é‚®ç®±å’Œåç§°
+git config --global user.name "Long H"
+git config --global user.email "578440449@qq.com"
+æ–°æœºå™¨éœ€è¦é…ç½®ssh keys
+æ£€æŸ¥ç”¨æˆ·ç›®å½•ä¸‹çš„.sshç›®å½•ä¸‹æ˜¯å¦æœ‰id_rsa,id_rsa.pub,known_hostsä¸‰ä¸ªæ–‡ä»¶,æœ‰åˆ™åˆ é™¤é‡æ–°ç”Ÿæˆ
+ls -al ~/.ssh
+ssh-keygen -t rsa -C "578440449@qq.com"(å›è½¦ä¸‰è¿)
+eval `ssh-agent -s`
+ssh-add
+clip < ~/.ssh/id_rsa.pub(å¤åˆ¶ssh keyåˆ°ä½ çš„githubé‡Œ)
+æµ‹è¯•æ˜¯å¦æˆåŠŸ
+ssh -T git@github.com
 
-#ÕâÀïÊÇÕıÎÄ£¬ÓÃmarkdownĞ´£¬Äã¿ÉÒÔÑ¡ÔñĞ´Ò»¶ÎÏÔÊ¾ÔÚÊ×Ò³µÄ¼ò½éºó£¬¼ÓÉÏ
-<!--more-->£¬ÔÚ<!--more-->Ö®Ç°µÄÄÚÈİ»áÏÔÊ¾ÔÚÊ×Ò³£¬Ö®ºóµÄÄÚÈİ»á±»Òş²Ø£¬µ±ÓÎ¿Íµã»÷Read more²ÅÄÜ¿´µ½¡£
+åˆ©ç”¨npmå®‰è£…hexo
+npm install -g hexo
+å®‰è£…ä¾èµ–åŒ…
+npm install
+åˆ›å»ºä¸€ä¸ªç©ºç›®å½•å¼€å§‹åˆå§‹åŒ–
+hexo init #æ„å»ºhexoé…ç½®æ–‡ä»¶
+å®‰è£…hexo-deployer-git
+npm install hexo-deployer-git --save
+å¸¸ç”¨å‘½ä»¤
+hexo g #å®Œæ•´å‘½ä»¤ä¸ºhexo generate,ç”¨äºç”Ÿæˆé™æ€æ–‡ä»¶
+hexo s #å®Œæ•´å‘½ä»¤ä¸ºhexo server,ç”¨äºå¯åŠ¨æœåŠ¡å™¨ï¼Œä¸»è¦ç”¨æ¥æœ¬åœ°é¢„è§ˆ
+hexo d #å®Œæ•´å‘½ä»¤ä¸ºhexo deploy,ç”¨äºå°†æœ¬åœ°æ–‡ä»¶å‘å¸ƒåˆ°githubä¸Š
+hexo n #å®Œæ•´å‘½ä»¤ä¸ºhexo new,ç”¨äºæ–°å»ºä¸€ç¯‡æ–‡ç« 
+hexo clean æ¸…ç†
+hexo new "my new post" #å‘è¡¨ä¸€ç¯‡æ–‡ç« 
+
+æ–°å¢å¯¼èˆªåˆ†ç±»é¡µé¢
+hexo new page categories
+ä¿®æ”¹source\categoriesç›®å½•ä¸‹é¢çš„index.mdæ¨¡æ¿é¡µé¢
+title: åˆ†ç±»
+date: 2018-03-31 09:28:45
+type: "categories"
