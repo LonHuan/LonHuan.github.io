@@ -33,5 +33,5 @@ hexo new "my new post" #发表一篇文章
 hexo new page categories
 修改source\categories目录下面的index.md模板页面
 title: 分类
-date: 2018-03-31 09:28:45
+date: 
 type: "categories"
