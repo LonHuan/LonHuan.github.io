@@ -693,9 +693,9 @@ pace: false
 # For example
 # pace_theme: pace-theme-center-simple
 pace_theme: pace-theme-minimal
-
+#4种动态背景
 # Canvas-nest
-canvas_nest: false
+canvas_nest: true
 
 # three_waves
 three_waves: false
