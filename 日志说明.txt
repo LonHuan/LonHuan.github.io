@@ -1,0 +1,8 @@
+hexo g #完整命令为hexo generate,用于生成静态文件
+hexo s #完整命令为hexo server,用于启动服务器，主要用来本地预览
+hexo d #完整命令为hexo deploy,用于将本地文件发布到github上
+hexo n #完整命令为hexo new,用于新建一篇文章
+hexo clean 清理
+
+#这里是正文，用markdown写，你可以选择写一段显示在首页的简介后，加上
+<!--more-->，在<!--more-->之前的内容会显示在首页，之后的内容会被隐藏，当游客点击Read more才能看到。
