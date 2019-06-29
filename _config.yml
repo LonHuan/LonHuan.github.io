@@ -3,7 +3,7 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Long's Blog
+title: Long
 subtitle: Don't say sorry, be better.
 description: 朝生夕灭
 keywords: longhuan
@@ -73,7 +73,7 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: next
+theme: diaspora
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html

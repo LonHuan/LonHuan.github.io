@@ -1,4 +1,4 @@
-安装前提
+﻿安装前提
 node.js和git客户端
 新装git需要配置邮箱和名称
 git config --global user.name "Long H"
@@ -9,10 +9,13 @@ ls -al ~/.ssh
 ssh-keygen -t rsa -C "578440449@qq.com"(回车三连)
 eval `ssh-agent -s`
 ssh-add
-clip < ~/.ssh/id_rsa.pub(复制ssh key到你的github里)
+clip < ~/.ssh/id_rsa.pub(这一段是复制ssh key，然后设置到你的github里)
 测试是否成功
 ssh -T git@github.com
 
+
+(npm镜像在国外，安装可能会遇到网络连接超时问题
+这个时候需要设置国内镜像npm config set registry https://registry.npm.taobao.org)
 新机器需要利用npm安装hexo
 npm install -g hexo
 安装依赖包
@@ -27,7 +30,9 @@ hexo s #完整命令为hexo server,用于启动服务器，主要用来本地预
 hexo d #完整命令为hexo deploy,用于将本地文件发布到github上
 hexo n #完整命令为hexo new,用于新建一篇文章
 hexo clean 清理
-hexo new "my new post" #发表一篇文章
+hexo new "my new post" #发表一篇文章也可以手动创建md文档放到source\_posts目录下
+最好下载一个markdownpad软件用来写文章
+
 
 新增导航分类页面
 hexo new page categories

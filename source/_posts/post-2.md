@@ -1,13 +1,10 @@
 ---
 title: 最好的编程语言？
 date: 2018-09-28 11:34:31
-categories: blog #文章文类
-tags: [blog] #文章标签
+cover: https://ws2.sinaimg.cn/large/006tKfTcgy1fq952y5gn6j318g0p0q88.jpg
+tags: [杂文] #文章标签
 ---
 C++？C#？Python？Java？Ruby？JavaScript？选择一种编程语言开始你的编码之旅。
-
-![](https://ws2.sinaimg.cn/large/006tKfTcgy1fq952y5gn6j318g0p0q88.jpg)
-<!--more-->
 
 事实上：选择任何一种编程语言对你来说都不是最重要的,重要的是你需要学习编程的理念——俗称套路。
 
