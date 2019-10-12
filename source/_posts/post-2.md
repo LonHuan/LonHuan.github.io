@@ -1,7 +1,7 @@
 ---
 title: 最好的编程语言？
 date: 2018-09-28 11:34:31
-cover: http://ww1.sinaimg.cn/mw690/6e3532d9gw1eg3o3vs5ayj21kw12ehbk.jpg
+cover: 
 tags: [杂文] #文章标签
 ---
 C++？C#？Python？Java？Ruby？JavaScript？选择一种编程语言开始你的编码之旅。
