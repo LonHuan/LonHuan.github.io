@@ -79,4 +79,4 @@ theme: diaspora
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: git@github.com:LonHuan/LonHuan.github.io.git,master
+  repo: https://github.com/LonHuan/LonHuan.github.io.git,master
