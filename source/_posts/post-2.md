@@ -1,7 +1,7 @@
 ---
 title: 最好的编程语言？
 date: 2018-09-28 11:34:31
-cover: 
+cover: https://simipic.com/images/2020/02/01/meitu4e1ee2550eb65ddb.png
 tags: [杂文] #文章标签
 ---
 C++？C#？Python？Java？Ruby？JavaScript？选择一种编程语言开始你的编码之旅。
